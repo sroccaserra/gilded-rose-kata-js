@@ -1,3 +1,7 @@
+// @ts-check
+
+/** @typedef {import('./item').Item} Item */
+
 ///
 // Notes
 //
@@ -7,6 +11,7 @@
 // To disable no-empty linter rule: // eslint-disable-next-line no-empty
 
 class Shop {
+  /** @param {Item[]} items */
   constructor(items) {
     this.items = items;
   }

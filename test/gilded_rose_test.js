@@ -1,3 +1,5 @@
+// @ts-check
+
 require('approvals').mocha();
 
 const { Shop } = require("../src/gilded_rose");
