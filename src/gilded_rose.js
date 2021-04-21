@@ -1,3 +1,11 @@
+///
+// Notes
+//
+// Vim macro to swap if / else contents with Java style curly brace positions:
+// jVk$%kdjVk$%kd%^%pk$%"2pk^%^
+//
+// To disable no-empty linter rule: // eslint-disable-next-line no-empty
+
 class Shop {
   constructor(items) {
     this.items = items;
